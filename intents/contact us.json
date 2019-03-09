@@ -1,0 +1,51 @@
+{
+  "id": "f79ffbbe-0371-4636-b754-955351730a79",
+  "name": "contact us",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "contact us",
+          "subtitle": "if u want contact us click below:",
+          "buttons": [
+            {
+              "text": "contact",
+              "postback": "http://e-pragati.in/contact/"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "select an item:",
+          "replies": [
+            "menu",
+            "exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530005621,
+  "fallbackIntent": false,
+  "events": []
+}

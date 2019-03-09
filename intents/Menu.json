@@ -1,0 +1,73 @@
+{
+  "id": "8cb17936-1c8e-4585-835f-a6ddd1da1d2b",
+  "name": "Menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://egov.eletsonline.com/wp-content/uploads/2016/01/e-pragati.jpg"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "e-Pragati:-\nThe Government of Andhra Pradesh (“GoAP”) has been making pioneering efforts to develop the State of Andhra Pradesh as an innovation society of global repute, with a focus on enhancing the quality of life of its citizens, through high-quality education and healthcare etc."
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "select below",
+          "replies": [
+            "Home",
+            "About",
+            "Mission",
+            "Core Platform",
+            "Proposals",
+            "Careers",
+            "Contact",
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi!",
+            "Hello!",
+            "Good day!",
+            "Greetings!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "welcome to Epragathi:"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530005342,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

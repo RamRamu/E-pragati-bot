@@ -1,0 +1,57 @@
+{
+  "id": "76d68346-d925-4a23-b586-5c2eb99950a8",
+  "name": "Core Platform",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "e-Pragati Core Platform\n“ePragati” is a software platform proposed to be implemented by ePragati Authority, consisting of 72 projects spanning across all major departments and components of GoAP."
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Core Platform",
+          "imageUrl": "https://i0.wp.com/e-pragati.in/wp-content/uploads/2017/07/img73-1024x552.jpg",
+          "buttons": [
+            {
+              "text": "link about core platform",
+              "postback": "http://e-pragati.in/core-platform/"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "choose your choice:",
+          "replies": [
+            "menu",
+            "exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530001432,
+  "fallbackIntent": false,
+  "events": []
+}
